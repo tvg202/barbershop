@@ -1,0 +1,50 @@
+.contacts-group {
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #191c26;
+
+    & .flex {
+        justify-content: space-between;
+    }
+}
+
+.working-hours {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: calc(15 / 11);
+    text-transform: uppercase;
+    letter-spacing: normal;
+
+    color: var(--main-title-color);
+}
+
+.address {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: calc(30 / 18);
+    letter-spacing: 0.02em;
+
+    color: #9da4bd;
+}
+
+.icon-map,
+.icon-phone,
+.icon-mail {
+    margin-right: 16px;
+}
+
+.mail-address {
+    margin-bottom: 70px;
+}
+
+.contacts,
+.booking {
+    width: 570px;
+}
+
+.contacts {
+    padding-left: 100px;
+    background-image: url(../../img/contacts-bg.png);
+    background-repeat: no-repeat;
+    background-position: calc(100%) 0%;
+}

@@ -1,0 +1,37 @@
+
+.team {
+    @extend %section;
+    
+    background-color: #f7f7f7;
+}
+
+.team .title {
+    color: var(--secondary-title-color);
+}
+
+.team-name {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: calc(25 / 18);
+    text-align: center;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+
+    color: var(--secondary-title-color);
+}
+
+.team-position {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(19 / 14);
+    text-align: center;
+    letter-spacing: 0.02em;
+    margin-bottom: 30px;
+
+    color: var(--accent-color);
+}
+
+.team-wrapper {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}

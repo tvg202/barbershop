@@ -1,0 +1,28 @@
+/*# sourceMappingURL=main.css.map */
+@import 
+    './utils/variables',
+    './utils/placeholders',
+    './utils/mixins';
+
+@import 
+    './base/base',
+    './base/reset',
+    './base/card-set';
+
+@import 
+    './components/section',
+    './components/components',
+    './components/container',
+    './components/typography',
+    './components/btn',
+    './components/header',
+    './components/logo',
+    './components/hero',
+    './components/about',
+    './components/price',
+    './components/benefits',
+    './components/team',
+    './components/gallery',
+    './components/booking',
+    './components/socials';
+

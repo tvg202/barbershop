@@ -1,0 +1,27 @@
+.galery {
+    @include section;
+}
+
+.galery-list {
+    --items: 4;
+}
+
+.galery .uppertitle {
+    margin-bottom: 44px;
+}
+
+.list-item:last-child {
+    padding: 5px 0 0 7px;
+}
+
+.list-item:nth-last-child(-n + 3) {
+    background-color: orangered;
+    color: white;
+    border: 0;
+    font-weight: 600;
+}
+
+.svg-img {
+    outline: 2px solid red;
+}
+

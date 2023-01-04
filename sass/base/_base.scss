@@ -1,0 +1,22 @@
+// Partial 1
+
+html {
+    box-sizing: border-box;
+}
+
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Open Sans", Verdana, sans-serif;
+    font-size: 18px;
+}
+
+
+
+.flex {
+    display: flex;
+    flex: 1 1 auto;
+}

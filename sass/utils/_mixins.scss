@@ -1,0 +1,7 @@
+@mixin section($pt: 120px, $pb: $pt) {
+    max-width: 1600px;
+    margin: 0 auto;
+    display: block;
+    padding-top: $pt;
+    padding-bottom: $pb;
+}
